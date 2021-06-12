@@ -12,6 +12,9 @@ var zombie,zombieImg;
 var heart1,heart2,heart3,heartImg;
 var game,player,form;
 var playerCount=0;
+var allPlayers=[];
+var character=[];
+
 
 function preload() {
   ground_image = loadImage("Background.png");
